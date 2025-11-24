@@ -69,7 +69,7 @@ Pour l’entraînement de l’anomalie :
 
 - UCSD Ped2 (léger, facile à manipuler)
 - Avenue Dataset
-- ShanghaiTech (plus complet mais très lourd)
+- ShanghaiTech (plus complet mais très lourd) (https://svip-lab.github.io/dataset/campus_dataset.html)
 
 
 ## Fonctionnalités principales
