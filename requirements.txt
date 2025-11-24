@@ -1,0 +1,10 @@
+streamlit>=1.0.0
+opencv-python>=4.5.0
+numpy>=1.20.0
+ultralytics>=8.0.0
+tensorflow>=2.5.0  # Pour l'Autoencodeur LSTM
+scipy>=1.7.0       # Souvent nécessaire pour le tracking et l'optimisation
+# Librairie de tracking - Choisissez-en une :
+# deepsort-pytorch  # Si vous optez pour DeepSORT
+# bytetrack         # Si vous optez pour ByteTrack
+# (Vous devrez trouver la version compatible et l'installer)
