@@ -34,7 +34,7 @@ def initialize_components():
         # Tente d'initialiser les composants
         tracker = ObjectTracker(model_path='yolov8n.pt') 
         builder = SequenceBuilder(sequence_length=30)
-        anomaly_model = AnomalyDetector(model_path='models/anomaly_model.pt', threshold=0.05) 
+        anomaly_model = AnomalyDetector(model_path='models/anomaly_model.pt', threshold=0.2) 
         
         # Le tracker contient les noms des classes COCO
         class_names = tracker.model.names 
